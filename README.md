@@ -17,6 +17,10 @@ public class AIPv6 {
         try {
 
 		    address = InetAddress.getByName(args[0]);
+		    
+		    if (address.isAnyLocalAddress()){
+					System.out.println(address + " wildcard address. ");
+				}
 
 
         }
