@@ -12,3 +12,9 @@ import java.net.UnknownHostException;
 public class AIPv6 {
 
 	public static void main(String args[]) throws UnknownHostException {
+
+
+        }
+	    }
+	    
+	}
