@@ -23,12 +23,11 @@ public class AIPv6 {
 				}
 				if (address.isMCLinkLocal()) {
 					System.out.println(address + " multicast address. ");
-					
 					} else  {
 					System.out.println(address + " is a unicast address.");
                                         }
-                                        } catch (UnknownHostException ex) {
-
+                                          } catch (UnknownHostException ex) {
+                                        System.err.println("Could't resolve " + args[0]);
         }
 	    }
 	    
