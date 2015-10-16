@@ -21,6 +21,8 @@ public class AIPv6 {
 		    if (address.isAnyLocalAddress()){
 					System.out.println(address + " wildcard address. ");
 				}
+				if (address.isMCLinkLocal()) {
+					System.out.println(address + " multicast address. ");
 
 
         }
