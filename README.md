@@ -25,6 +25,7 @@ public class AIPv6 {
 					System.out.println(address + " multicast address. ");
 					
 					} else  {
+					System.out.println(address + " is a unicast address.");
 
 
         }
