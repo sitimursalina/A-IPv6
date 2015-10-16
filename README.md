@@ -23,6 +23,8 @@ public class AIPv6 {
 				}
 				if (address.isMCLinkLocal()) {
 					System.out.println(address + " multicast address. ");
+					
+					} else  {
 
 
         }
