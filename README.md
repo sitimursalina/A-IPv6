@@ -26,7 +26,7 @@ public class AIPv6 {
 					
 					} else  {
 					System.out.println(address + " is a unicast address.");
-
+                                        }
 
         }
 	    }
